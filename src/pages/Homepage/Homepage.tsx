@@ -67,7 +67,7 @@ function Homepage() {
               onClick={() => setPage(page + 1)}
               className="btn btn-primary"
             >
-              Charger plus de recettes
+              Charger plus de recettes !
             </button>
           </div>
         </div>
