@@ -74,8 +74,8 @@ function AdminRecipesForm() {
         {errors.title && <p className="form-error">{errors.title.message}</p>}
       </div>
       <div className="d-flex flex-column mb-20">
-        <label>Image pour la recette</label>
-        <input {...register("image")} type="text" />
+        <label>Image pour la recette (En format url)</label>
+        <input {...register("image")} type="text" placeholder="https://images.unsplash.com/recette/banane..."/>
         {errors.image && <p className="form-error">{errors.image.message}</p>}
       </div>
       {errors.generic && <p className="form-error">{errors.generic.message}</p>}
