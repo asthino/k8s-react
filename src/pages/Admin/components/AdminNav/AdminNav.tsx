@@ -14,7 +14,7 @@ function AdminNav() {
         className={({ isActive }) => (isActive ? styles.active : "")}
         to="users"
       >
-        Utilisateurs
+        Utilisateurs *
       </NavLink>
     </ul>
   );
