@@ -39,7 +39,7 @@ function Homepage() {
     <>
       <div className="flex-fill container d-flex flex-column p-20">
         <h1 className={`my-30 ${styles.title}`}>
-          Découvrez nos nouvelles recettes{" "}
+          Découvrez nos nouvelles recettes miam miam{" "}
           <small className={styles.small}>- {recipes.length}</small>
         </h1>
         <div
@@ -67,7 +67,7 @@ function Homepage() {
               onClick={() => setPage(page + 1)}
               className="btn btn-primary"
             >
-              Charger plus de recettes !
+              Charger plus de recettes (et régalez vous !)
             </button>
           </div>
         </div>
